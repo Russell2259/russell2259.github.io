@@ -1,0 +1,22 @@
+* {
+    transition: 0.5s;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    width: 93%;
+    align-self: center;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    bottom: 0;
+    background: #0172fd;
+    padding-left: 7%;
+}
