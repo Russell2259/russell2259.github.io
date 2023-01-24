@@ -6,6 +6,7 @@ html,
 body {
     width: 100vw;
     height: 100vh;
+    margin: 0px;
 }
 
 footer {
@@ -19,4 +20,8 @@ footer {
     bottom: 0;
     background: #0172fd;
     padding-left: 7%;
+}
+
+footer > svg {
+    position: absolute;
 }
