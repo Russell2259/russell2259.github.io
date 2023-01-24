@@ -18,10 +18,12 @@ footer {
     justify-content: left;
     align-items: center;
     bottom: 0;
-    background: #0172fd;
     padding-left: 7%;
 }
 
 footer > svg {
     position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
 }
