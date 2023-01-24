@@ -21,9 +21,19 @@ footer {
     padding-left: 7%;
 }
 
+footer > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 footer > svg {
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 10;
+    z-index: -10;
 }
