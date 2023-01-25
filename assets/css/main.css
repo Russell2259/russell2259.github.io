@@ -1,7 +1,6 @@
 * {
     transition: 0.5s;
     font-family: montserrat;
-    overflow: hidden;
 }
 
 html,
@@ -18,11 +17,13 @@ footer {
     padding-left: 7%;
     position: absolute;
     align-self: center;
+    overflow: hidden;
 }
 
 footer>.footer-content>a {
     color: #fff;
     text-decoration: none;
+    position: relative;
 }
 
 footer>.footer-content>a:hover {
@@ -30,11 +31,12 @@ footer>.footer-content>a:hover {
     text-decoration: none;
 }
 
-footer>svg {
+footer>.wave {
     position: absolute;
     left: 0;
-    bottom: -80px;
     z-index: -10;
+    mask-image: url('/assets/img/mask.png');
+    mask-repeat: no-repeat;
 }
 
 footer>.footer-content {
