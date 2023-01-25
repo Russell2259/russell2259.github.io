@@ -41,11 +41,6 @@ footer>.footer-content>a {
     padding: 1.5em;
 }
 
-footer>.footer-content>a:hover {
-    color: var(--footer-color);
-    text-decoration: none;
-}
-
 footer>svg {
     height: 85px;
     left: 0;
@@ -142,7 +137,7 @@ h1 {
 }
 
 a {
-    color: var(--footer-color);
+    color: var(--text-color);
     text-decoration: underline;
 }
 
