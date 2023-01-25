@@ -20,6 +20,8 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 footer {
