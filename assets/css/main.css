@@ -46,13 +46,12 @@ footer>.footer-content>a:hover {
 }
 
 footer>svg {
-    position: absolute;
-    left: 0;
-    z-index: -1;
     height: 140px;
 }
 
 footer>.footer-content {
+    position: absolute;
+    z-index: 20;
     height: 50px;
     display: flex;
     align-items: center;
