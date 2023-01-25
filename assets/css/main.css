@@ -136,13 +136,13 @@ h1 {
     text-align: center;
 }
 
-.wave {
+/*.wave {
     fill: var(--wave-color);
 }
 
 path {
     fill: var(--wave-color);
-}
+}*/
 
 @font-face {
     font-family: 'montserrat';
