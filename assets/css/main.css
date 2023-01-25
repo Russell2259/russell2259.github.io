@@ -136,6 +136,10 @@ h1 {
     text-align: center;
 }
 
+.wave > path {
+    fill: var(--wave-color);
+}
+
 @font-face {
     font-family: 'montserrat';
     src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),
