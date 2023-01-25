@@ -1,5 +1,6 @@
 * {
     transition: 0.5s;
+    font-family: montserrat;
 }
 
 html,
@@ -19,30 +20,41 @@ footer {
     align-items: center;
     bottom: 0;
     padding-left: 7%;
+    position: relative;
 }
 
-footer > a {
+footer>.footer-content>a {
     color: #fff;
     text-decoration: none;
 }
 
-footer > a:hover {
+footer>.footer-content>a:hover {
     color: #fff;
     text-decoration: none;
 }
 
-footer > svg {
+footer>svg {
     position: absolute;
     left: 0;
     bottom: 0;
+
     z-index: -10;
 }
 
-.nav {
-    max-height: 5%;
+footer>.footer-content {
+    height: 80px;
+    display: flex;
     align-items: center;
+}
+
+.page {
+    height: calc(100% - 80px);
+}
+
+.nav {
     display: flex;
     justify-content: left;
+    height: 70px;
 }
 
 .nav.is-sticky {
@@ -50,10 +62,10 @@ footer > svg {
 }
 
 .nav-item {
-    padding-top: calc(5%/2);
-    padding-bottom: calc(5%/2);
-    padding-left: 5px;
-    padding-right: 5px;
+    align-items: center;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     color: #242425;
     text-decoration: none;
 }
@@ -66,8 +78,51 @@ footer > svg {
 
 .nav-logo {
     padding: 10px;
+    height: 50px;
 }
 
 .logo {
-    height: 80px;
+    height: 50px;
+}
+
+.header {
+    height: 40vh;
+    background-image: url('/assets/img/header_wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.header > h1 {
+    margin: 0px;
+    font-family: montserrat-black;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: montserrat-black;
+}
+
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-black';
+    src: url('/assets/fonts/Montserrat-Black.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
