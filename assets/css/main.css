@@ -11,33 +11,31 @@
 }
 
 * {
-    transition: 0.5s;
     font-family: montserrat;
+    transition: all 0.5s ease 0s;
 }
 
 html,
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
     background-color: var(--bg-color);
     color: var(--text-color);
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
 }
 
 footer {
-    margin-top: auto;
-    width: 93%;
-    height: 85px;
-    padding-left: 7%;
-    position: absolute;
     align-self: center;
+    height: 85px;
+    margin-top: auto;
     overflow: hidden;
+    padding-left: 7%;
+    width: 93%;
 }
 
 footer>.footer-content>a {
     color: var(--text-color);
     text-decoration: none;
-    position: relative;
 }
 
 footer>.footer-content>a:hover {
@@ -46,20 +44,17 @@ footer>.footer-content>a:hover {
 }
 
 footer>svg {
-    position: absolute;
-    left: 0;
-    z-index: -10;
     height: 140px;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
 footer>.footer-content {
-    position: absolute;
-    z-index: 20;
-    height: 50px;
-    display: flex;
     align-items: center;
-    justify-content: left;
     display: flex;
+    height: 50px;
+    justify-content: left;
 }
 
 .page {
@@ -68,8 +63,8 @@ footer>.footer-content {
 
 .nav {
     display: flex;
-    justify-content: left;
     height: 70px;
+    justify-content: left;
     overflow: hidden;
 }
 
@@ -79,10 +74,10 @@ footer>.footer-content {
 
 .nav-item {
     align-items: center;
+    color: var(--text-color);
     display: flex;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -99,9 +94,9 @@ footer>.footer-content {
 }
 
 .nav-logo {
-    padding: 10px;
     height: 50px;
     overflow: hidden;
+    padding: 10px;
 }
 
 .logo {
@@ -109,20 +104,20 @@ footer>.footer-content {
 }
 
 .header {
-    height: 51%;
-    background-image: url('/assets/img/header_wave.svg');
+    background-image: url("/assets/img/header_wave.svg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    height: 51%;
     justify-content: center;
 }
 
 .header>h1 {
-    margin: 0px;
+    align-items: center;
+    display: flex;
     font-family: montserrat-black;
     font-size: 50px;
-    display: flex;
-    align-items: center;
+    margin: 0;
 }
 
 h1 {
@@ -140,20 +135,4 @@ h1 {
 
 path {
     fill: var(--wave-color);
-}
-
-@font-face {
-    font-family: 'montserrat';
-    src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),
-        url('/assets/fonts/Montserrat-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'montserrat-black';
-    src: url('/assets/fonts/Montserrat-Black.woff2') format('woff2'),
-        url('/assets/fonts/Montserrat-Black.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
