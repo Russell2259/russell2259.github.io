@@ -31,13 +31,11 @@ footer>.footer-content>a:hover {
     text-decoration: none;
 }
 
-footer>.wave {
+footer>svg {
     position: absolute;
     left: 0;
     z-index: -10;
     height: 240px;
-    mask-image: url('/assets/img/mask.png');
-    mask-repeat: no-repeat;
 }
 
 footer>.footer-content {
