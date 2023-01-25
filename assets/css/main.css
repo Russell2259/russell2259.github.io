@@ -15,7 +15,7 @@ footer {
     margin-top: auto;
     width: 93%;
     align-self: center;
-    height: 80px;
+    height: 303px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -49,7 +49,7 @@ footer>.footer-content {
 }
 
 .page {
-    height: calc(100% - 80px);
+    height: calc(100% - 303px);
 }
 
 .nav {
@@ -116,11 +116,10 @@ h1 {
 .content {
     margin-left: 50px;
     margin-right: 50px;
-    content: '';
 }
 
-.content::after {
-    margin-bottom: 100px;
+.text.is-center {
+    text-align: center;
 }
 
 @font-face {
