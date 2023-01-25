@@ -140,7 +140,7 @@ h1 {
     fill: var(--wave-color);
 }
 
-svg {
+path {
     fill: var(--wave-color);
 }
 
