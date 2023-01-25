@@ -13,7 +13,7 @@ body {
 footer {
     margin-top: auto;
     width: 93%;
-    height: 240px;
+    height: 85px;
     padding-left: 7%;
     position: absolute;
     align-self: center;
@@ -35,7 +35,7 @@ footer>svg {
     position: absolute;
     left: 0;
     z-index: -10;
-    height: 240px;
+    height: 100px;
 }
 
 footer>.footer-content {
@@ -47,7 +47,7 @@ footer>.footer-content {
 }
 
 .page {
-    height: calc(100% - 80px);
+    height: calc(100% - 85px);
 }
 
 .nav {
