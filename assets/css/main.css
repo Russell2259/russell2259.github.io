@@ -59,7 +59,7 @@ footer>.footer-content {
     justify-content: left;
     position: absolute;
     z-index: 20;
-    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 .page {
