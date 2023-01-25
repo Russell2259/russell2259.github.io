@@ -33,13 +33,13 @@ footer {
 }
 
 footer>.footer-content>a {
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
     position: relative;
 }
 
 footer>.footer-content>a:hover {
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
 }
 
