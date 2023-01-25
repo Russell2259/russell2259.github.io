@@ -136,11 +136,11 @@ h1 {
     text-align: center;
 }
 
-.wave>path {
+.wave {
     fill: var(--wave-color);
 }
 
-path {
+svg {
     fill: var(--wave-color);
 }
 
