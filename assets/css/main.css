@@ -110,6 +110,7 @@ footer>.footer-content {
     display: flex;
     height: 51%;
     justify-content: center;
+    background-position: -50, -50;
 }
 
 .header>h1 {
