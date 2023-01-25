@@ -34,7 +34,7 @@ footer>.footer-content>a:hover {
 footer>svg {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -80px;
     z-index: -10;
 }
 
@@ -44,12 +44,10 @@ footer>.footer-content {
     align-items: center;
     justify-content: left;
     display: flex;
-    align-items: center;
-    align-self: center;
 }
 
 .page {
-    height: calc(100% - 240px);
+    height: calc(100% - 80px);
 }
 
 .nav {
