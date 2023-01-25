@@ -15,9 +15,8 @@ footer {
     margin-top: auto;
     width: 93%;
     height: 240px;
-    bottom: 0;
     padding-left: 7%;
-    position: fixed;
+    position: absolute;
     align-self: center;
 }
 
@@ -54,6 +53,7 @@ footer>.footer-content {
     display: flex;
     justify-content: left;
     height: 70px;
+    overflow: hidden;
 }
 
 .nav.is-sticky {
@@ -84,10 +84,11 @@ footer>.footer-content {
 .nav-logo {
     padding: 10px;
     height: 50px;
+    overflow: hidden;
 }
 
 .logo {
-    height: 50px;
+    width: 50px;
 }
 
 .header {
