@@ -1,6 +1,7 @@
 * {
     transition: 0.5s;
     font-family: montserrat;
+    overflow: hidden;
 }
 
 html,
@@ -76,6 +77,12 @@ footer>.footer-content {
     text-decoration: none;
 }
 
+.nav-item.is-active {
+    background-color: #242425;
+    color: #fff;
+    text-decoration: none;
+}
+
 .nav-logo {
     padding: 10px;
     height: 50px;
@@ -86,7 +93,7 @@ footer>.footer-content {
 }
 
 .header {
-    height: 40%;
+    height: 51%;
     background-image: url('/assets/img/header_wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,6 +116,7 @@ h1 {
 .content {
     margin-left: 50px;
     margin-right: 50px;
+    content: '';
 }
 
 .content::after {
