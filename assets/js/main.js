@@ -6,3 +6,4 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 
 const svg = document.querySelectorAll('path')[1];
 svg.fill = getComputedStyle(document.documentElement).getPropertyValue('--wave-color');
+alert(svg.fill);
