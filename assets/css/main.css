@@ -86,7 +86,7 @@ footer>.footer-content {
 }
 
 .header {
-    height: 40vh;
+    height: 40%;
     background-image: url('/assets/img/header_wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,6 +109,10 @@ h1 {
 .content {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.content::after {
+    margin-bottom: 100px;
 }
 
 @font-face {
