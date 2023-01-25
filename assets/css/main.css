@@ -1,3 +1,15 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #242425;
+    --wave-color: #242425;
+}
+
+[data-theme="dark"] {
+    --bg-color: #242425;
+    --text-color: #fff;
+    --wave-color: #cdcdcd;
+}
+
 * {
     transition: 0.5s;
     font-family: montserrat;
@@ -66,19 +78,19 @@ footer>.footer-content {
     display: flex;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    color: #242425;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .nav-item:hover {
-    background-color: #242425;
-    color: #fff;
+    background-color: var(--text-color);
+    color: var(--bg-color);
     text-decoration: none;
 }
 
 .nav-item.is-active {
-    background-color: #242425;
-    color: #fff;
+    background-color: var(--text-color);
+    color: var(--bg-color);
     text-decoration: none;
 }
 
