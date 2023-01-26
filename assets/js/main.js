@@ -7,3 +7,5 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 } else {
     document.documentElement.setAttribute('data-theme', 'light');
 }
+
+//document.documentElement.setAttribute('data-theme', 'light');

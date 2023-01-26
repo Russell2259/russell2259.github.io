@@ -9,7 +9,7 @@
     --bg-color: #242425;
     --text-color: #fff;
     --wave-color: #fff;
-    --footer-color: #242425;
+    --footer-color: #ffffff;
 }
 
 * {
@@ -22,13 +22,13 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     height: 100vh;
-    margin: 0;
+    margin: 0px;
     width: 100vw;
 }
 
 footer {
     align-self: center;
-    height: 85px;
+    height: 256px;
     margin-top: auto;
     overflow: hidden;
     padding-left: 7%;
@@ -42,10 +42,13 @@ footer>.footer-content>a {
 }
 
 footer>svg {
-    height: 85px;
     left: 0;
     position: absolute;
     width: 100%;
+}
+
+footer>svg>path[data-waveid=top] {
+    fill: var(--wave-color);
 }
 
 footer>.footer-content {
@@ -54,10 +57,12 @@ footer>.footer-content {
     justify-content: left;
     position: absolute;
     z-index: 20;
+    width: 93%;
+    height: inherit;
 }
 
 .page {
-    height: calc(100% - 85px);
+    height: calc(100% - 256px);
 }
 
 .nav {
@@ -107,7 +112,7 @@ footer>.footer-content {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 51%;
+    height: 59%;
     justify-content: center;
 }
 
@@ -130,10 +135,6 @@ h1 {
 
 .text.is-center {
     text-align: center;
-}
-
-.wave>path {
-    fill: var(--wave-color);
 }
 
 a {
