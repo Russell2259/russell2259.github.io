@@ -154,6 +154,11 @@ a {
 .row {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+
+.row>div {
+    width: 50%;
 }
 
 .right {
