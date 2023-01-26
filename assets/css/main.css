@@ -151,6 +151,17 @@ a {
     text-decoration: underline;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    text-align: right;
+    display: flex;
+    align-items: right;
+}
+
 @font-face {
     font-family: 'montserrat';
     src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),
