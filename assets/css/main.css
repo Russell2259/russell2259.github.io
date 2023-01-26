@@ -14,7 +14,7 @@
 
 * {
     font-family: montserrat;
-    transition: all 0.5s ease 0s;
+    transition: 0.5s;
 }
 
 html,
@@ -23,12 +23,16 @@ body {
     color: var(--text-color);
     height: 100vh;
     margin: 0px;
-    width: 100vw;
+    width: 100%;
+}
+
+body.no-scroll {
+    overflow: hidden;
 }
 
 footer {
     align-self: center;
-    height: 256px;
+    height: 80px;
     margin-top: auto;
     overflow: hidden;
     padding-left: 7%;
@@ -36,7 +40,7 @@ footer {
 }
 
 footer>.footer-content>a {
-    color: var(--footer-color);
+    color: var(--bg-color);
     text-decoration: none;
     padding: 1.5em;
 }
@@ -45,6 +49,10 @@ footer>svg {
     left: 0;
     position: absolute;
     width: 100%;
+}
+
+footer>svg.wave>path {
+    fill: var(--wave-color);
 }
 
 footer>svg>path[data-waveid=top] {
@@ -62,7 +70,8 @@ footer>.footer-content {
 }
 
 .page {
-    height: calc(100% - 256px);
+    height: calc(100% - 80px);
+    overflow: auto;
 }
 
 .nav {
@@ -112,7 +121,7 @@ footer>.footer-content {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 59%;
+    height: 400px;
     justify-content: center;
 }
 
