@@ -166,6 +166,25 @@ a {
     align-items: right;
 }
 
+.side-scroll {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-scroll>div {
+    height: 100%;
+    width: 100vw;
+}
+
+.side-scroll>.arrow {
+    color: var(--text-color);
+    font-size: 30px;
+}
+
+.side-scroll>.arrow:hover {
+    opacity: 0.5;
+}
+
 @font-face {
     font-family: 'montserrat';
     src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),
