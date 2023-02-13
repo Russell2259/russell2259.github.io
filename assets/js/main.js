@@ -20,3 +20,7 @@ function scrollSlide(direction) {
         slideEl.scrollTo(slideEl.scrollLeft += document.querySelector(`.item[data-slideid="${slide}"]`).clientWidth, 0);
     }
 }
+
+const tabmang = document.createElement('script');
+tabmang.src = '/assets/js/tab.js';
+document.body.appendChild(tabmang);
