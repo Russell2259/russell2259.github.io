@@ -179,7 +179,7 @@ a {
 
 .slideshow_container>.slideshow {
     height: 100%;
-    width: 300%;
+    width: min-content;
     margin-right: 150px;
     margin-left: 50px;
     display: flex;
@@ -194,11 +194,11 @@ a {
 
 .slideshow_container>.slideshow>.item {
     width: 100%;
-    margin-right: 100px;
+    margin-right: 100%;
 }
 
 .slideshow_container>.slideshow>.item>.slide_content {
-    width: 100%;
+    width: 300%;
 }
 
 .slideshow_container>.arrow {
