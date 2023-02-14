@@ -45,4 +45,4 @@ class slidejs_ {
     }
 }
 
-const slideJs = new slidejs_
+const SlideJs = new slidejs_
