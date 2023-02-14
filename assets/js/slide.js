@@ -1,4 +1,4 @@
-class slidejs_ {
+class SlideJs_ {
     constructor() {
         this.slides = [];
 
@@ -37,7 +37,7 @@ class slidejs_ {
 
         this.goTo = (slideId) => {
             try {
-                document.querySelector('.slideshow').scrollLeft = document.querySelector('.slideshow').offsetWidth*slideId-1;
+                document.querySelector('.slideshow').scrollLeft = document.querySelector('.slideshow').offsetWidth*slideId;
             } catch (e) {
                 throw new Error(`Could not load slide ${slideId}`);
             }
@@ -45,4 +45,4 @@ class slidejs_ {
     }
 }
 
-const SlideJs = new slidejs_;
+const SlideJs = new SlideJs_
