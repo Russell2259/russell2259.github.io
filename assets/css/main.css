@@ -212,7 +212,7 @@ a {
     box-shadow: 2px 2px 8px var(--shadow-color);
 }
 
-.slideshow_container>.arrow[data-position=right] {
+.slideshow_container>.arrow[data-arrow="right"] {
     right: 50px;
 }
 

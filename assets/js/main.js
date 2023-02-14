@@ -12,16 +12,15 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 
 var slide = 0;
 
-document.querySelector('[data-arrow="right"]').addEventListener('click', (e) => {
+document.querySelector('[data-arrow="right"]').addEventListener('click', (event) => {
     slide += 1;
     SlideJs.goTo(slide);
 })
 
-document.querySelector('[data-arrow="left"]').addEventListener('click', (e) => {
+document.querySelector('[data-arrow="left"]').addEventListener('click', (event) => {
     slide -=1;
     SlideJs.goTo(slide);
 })
-
 
 /*const tabmang = document.createElement('script');
 tabmang.src = '/assets/js/tab.js';
