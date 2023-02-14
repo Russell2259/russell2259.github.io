@@ -186,6 +186,7 @@ a {
     display: flex;
     justify-content: space-between;
     overflow: auto;
+    overflow-x: scroll;
 }
 
 .slideshow_container>::-webkit-scrollbar {
@@ -193,11 +194,11 @@ a {
 }
 
 .slideshow_container>.slides>.item {
-    width: 100vw;
+    width: 100%;
 }
 
-.slideshow_container>.slides>.item>p {
-    width: 100vw;
+.slideshow_container>.slides>.item>.slide_content {
+    width: 100%;
 }
 
 .slideshow_container>.arrow {
