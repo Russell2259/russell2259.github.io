@@ -101,14 +101,14 @@
         var slide = 0;
 
         document.querySelector('[data-arrow="right"]').addEventListener('click', (event) => {
-            if (!slide >= 2) {
+            if (slide <= 2) {
                 slide += 1;
                 SlideJs.goTo(slide);
             }
         });
 
         document.querySelector('[data-arrow="left"]').addEventListener('click', (event) => {
-            if (!slide <= 0) {
+            if (slide >= 0) {
                 slide -= 1;
                 SlideJs.goTo(slide);
             }
@@ -116,14 +116,14 @@
 
         window.onkeydown = (e) => {
             if (e.key == 'ArrowRight') {
-                if (!slide >= 2) {
+                if (slide <= 2) {
                     slide += 1;
                     SlideJs.goTo(slide);
                 }
             }
 
             if (e.key == 'ArrowLeft') {
-                if (!slide <= 0) {
+                if (slide >= 0) {
                     slide -= 1;
                     SlideJs.goTo(slide);
                 }
