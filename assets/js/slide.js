@@ -37,7 +37,7 @@ class slidejs_ {
 
         this.goTo = (slideId) => {
             try {
-                document.querySelector('.slideshow').scrollLeft = document.querySelector('.slideshow').offsetWidth*slideId;
+                document.querySelector('.slideshow').scrollLeft = document.querySelector('.slideshow').offsetWidth*slideId+1;
             } catch (e) {
                 throw new Error(`Could not load slide ${slideId}`);
             }
