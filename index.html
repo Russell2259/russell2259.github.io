@@ -97,6 +97,25 @@
     </footer>
 
     <script src="/assets/js/slide.js"></script>
+    <script>
+        var slide = 0;
+
+        document.querySelector('[data-arrow="right"]').addEventListener('click', (event) => {
+            slide += 1;
+            SlideJs.goTo(slide);
+        });
+
+        document.querySelector('[data-arrow="left"]').addEventListener('click', (event) => {
+            slide -= 1;
+            SlideJs.goTo(slide);
+        })
+
+        window.onkeydown = (e) => {
+            if (e.key) {
+                alert(e.key);
+            }
+        }
+    </script>
 </body>
 
 </html>
