@@ -29,6 +29,7 @@ body {
     height: 100vh;
     margin: 0px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body.no-scroll {
@@ -172,14 +173,14 @@ a {
 }
 
 .slideshow_container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     overflow: visible;
 }
 
-.slideshow_container>.slides {
+.slideshow_container>.slideshow {
     height: 100%;
-    width: 100vw;
+    width: 100%;
     margin-right: 150px;
     margin-left: 50px;
     display: flex;
