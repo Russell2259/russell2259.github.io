@@ -23,7 +23,6 @@ document.querySelector('[data-position="left"]').addEventListener('click', (e) =
 })
 
 
-
 /*const tabmang = document.createElement('script');
 tabmang.src = '/assets/js/tab.js';
 document.body.appendChild(tabmang);*/
