@@ -101,24 +101,32 @@
         var slide = 0;
 
         document.querySelector('[data-arrow="right"]').addEventListener('click', (event) => {
-            slide += 1;
-            SlideJs.goTo(slide);
+            if (!slide >= 2) {
+                slide += 1;
+                SlideJs.goTo(slide);
+            }
         });
 
         document.querySelector('[data-arrow="left"]').addEventListener('click', (event) => {
-            slide -= 1;
-            SlideJs.goTo(slide);
+            if (!slide <= 0) {
+                slide -= 1;
+                SlideJs.goTo(slide);
+            }
         })
 
         window.onkeydown = (e) => {
             if (e.key == 'ArrowRight') {
-                slide += 1;
-                SlideJs.goTo(slide);
+                if (!slide >= 2) {
+                    slide += 1;
+                    SlideJs.goTo(slide);
+                }
             }
 
             if (e.key == 'ArrowLeft') {
-                slide -= 1;
-                SlideJs.goTo(slide);
+                if (!slide <= 0) {
+                    slide -= 1;
+                    SlideJs.goTo(slide);
+                }
             }
         }
     </script>

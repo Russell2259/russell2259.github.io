@@ -29,7 +29,6 @@ body {
     height: 100vh;
     margin: 0px;
     width: 100%;
-    overflow-x: hidden;
 }
 
 body.no-scroll {
@@ -184,6 +183,10 @@ a {
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+}
+
+.slideshow_container>.slideshow.moving {
     overflow-x: scroll;
     overflow-y: hidden;
 }
