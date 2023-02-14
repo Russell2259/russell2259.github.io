@@ -111,8 +111,14 @@
         })
 
         window.onkeydown = (e) => {
-            if (e.key) {
-                alert(e.key);
+            if (e.key == 'ArrowRight') {
+                slide += 1;
+                SlideJs.goTo(slide);
+            }
+
+            if (e.key == 'ArrowLeft') {
+                slide -= 1;
+                SlideJs.goTo(slide);
             }
         }
     </script>
