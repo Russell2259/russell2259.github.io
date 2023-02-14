@@ -194,7 +194,7 @@ a {
 }
 
 .slideshow_container>.slides>.item {
-    width: 100%;
+    width: 200%;
 }
 
 .slideshow_container>.slides>.item>.slide_content {
@@ -205,6 +205,11 @@ a {
     color: var(--text-color);
     font-size: 30px;
     position: absolute;
+    cursor: pointer;
+}
+
+.slideshow_container>.arrow:hover {
+    box-shadow: 2px 2px 8px var(--shadow-color);
 }
 
 .slideshow_container>.arrow[data-position=right] {
@@ -213,7 +218,7 @@ a {
 
 .slideshow_container>.arrow>svg {
     margin-top: 3em;
-    cursor: pointer;
+    margin-bottom: 3em;
 }
 
 .slideshow_container>.arrow:hover {
