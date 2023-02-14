@@ -193,11 +193,11 @@ a {
     display: none;
 }
 
-.slideshow_container>.slides>.item {
+.slideshow_container>.slideshow>.item {
     width: 200%;
 }
 
-.slideshow_container>.slides>.item>.slide_content {
+.slideshow_container>.slideshow>.item>.slide_content {
     width: 100%;
 }
 
