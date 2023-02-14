@@ -173,20 +173,19 @@ a {
 }
 
 .slideshow_container {
-    width: 100%;
     display: flex;
     overflow: visible;
 }
 
 .slideshow_container>.slideshow {
     height: 100%;
-    width: 100%;
+    width: 300%;
     margin-right: 150px;
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
-    overflow: auto;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .slideshow_container>::-webkit-scrollbar {
@@ -194,7 +193,8 @@ a {
 }
 
 .slideshow_container>.slideshow>.item {
-    width: 200%;
+    width: 100%;
+    margin-right: 100px;
 }
 
 .slideshow_container>.slideshow>.item>.slide_content {
