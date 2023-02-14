@@ -12,7 +12,7 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 
 var slide = 0;
 
-document.querySelector('[data-position="right"]').addEventListener('(e) => {
+document.querySelector('[data-position="right"]').addEventListener((e) => {
     slide += 1;
     SlideJs.goTo(slide);
 })
