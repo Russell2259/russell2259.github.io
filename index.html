@@ -130,7 +130,7 @@
             }
         }
 
-        document.querySelector('[data-image="dynamic-programs"]').forEach(img => {
+        document.querySelectorAll('[data-image="dynamic-programs"]').forEach(img => {
             if (document.documentElement.getAttribute('data-theme') == 'dark') {
                 img.src = img.src + '&theme=light';
             } else {
