@@ -60,7 +60,7 @@
                         <h1>Programs/Languages I Use</h1>
                         <div class="slide_content">
                             <img src="https://skillicons.dev/icons?i=md,html,javascript,css,nodejs,python,java"
-                                class="is-center" />
+                                class="is-center" data-image="dynamic-language" />
                             <br>
                             <br>
                             <img src="https://skillicons.dev/icons?i=vscode,eclipse,github,figma" class="is-center" />
@@ -129,6 +129,14 @@
                 }
             }
         }
+
+        document.querySelector('[data-image="dynamic-programs"]').forEach(img => {
+            if (document.documentElement.getAttribute('data-theme') == 'dark') {
+                img.src = img.src + '&theme=light';
+            } else {
+                img.src = img.src + '&theme=dark';
+            }
+        });
     </script>
 </body>
 

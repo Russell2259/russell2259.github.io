@@ -220,8 +220,8 @@ a {
 }
 
 .slideshow_container>.arrow>svg {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
 }
 
 .slideshow_container>.arrow:hover {
