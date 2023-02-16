@@ -307,6 +307,10 @@ button:disabled {
     font-size: smaller;
 }
 
+.posts>a {
+    text-decoration: none;
+}
+
 .post {
     background: #0172FD;
     border-radius: 30px;
