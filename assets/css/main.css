@@ -307,20 +307,23 @@ button:disabled {
     font-size: smaller;
 }
 
-.posts {
-    width: 50%;
-}
-
 .post {
-    background: #0172fd;
-    padding: 50px;
-    margin: 20px;    
+    background: #0172FD;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px 0 20px 50px;
+    text-decoration: none;
+    width: 60%;
 }
 
 .post:hover {
     box-shadow: 2px 2px 8px var(--shadow-color);
-    margin-left: 50px;
-    padding: 60px;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+
+.post>p {
+    text-decoration: none;
 }
 
 @font-face {
