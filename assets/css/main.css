@@ -307,6 +307,22 @@ button:disabled {
     font-size: smaller;
 }
 
+.posts {
+    width: 50%;
+}
+
+.post {
+    background: #0172fd;
+    padding: 50px;
+    margin: 20px;    
+}
+
+.post:hover {
+    box-shadow: 2px 2px 8px var(--shadow-color);
+    margin-left: 50px;
+    padding: 60px;
+}
+
 @font-face {
     font-family: 'montserrat';
     src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),

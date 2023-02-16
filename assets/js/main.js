@@ -10,6 +10,6 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.setAttribute('data-theme', 'light');
 }
 
-/*const tabmang = document.createElement('script');
+const tabmang = document.createElement('script');
 tabmang.src = '/assets/js/tab.js';
-document.body.appendChild(tabmang);*/
+document.body.appendChild(tabmang);
