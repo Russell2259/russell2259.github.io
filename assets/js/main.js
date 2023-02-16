@@ -1,6 +1,6 @@
 const tabmang = document.createElement('script');
 tabmang.src = '/assets/js/tab.js';
-document.body.appendChild(tabmang);
+document.head.appendChild(tabmang);
 
 window.scrollTo(0, 0);
 
