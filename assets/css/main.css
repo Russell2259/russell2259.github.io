@@ -99,7 +99,7 @@ footer>.footer-content {
     text-decoration: none;
 }
 
-.nav.nav-item:hover::before {
+.nav>a:hover::before {
     color: inherit;
 }
 
