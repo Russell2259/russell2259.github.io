@@ -72,7 +72,7 @@
                         <h1>My Organizations</h1>
                         <div class="slide_content">
                             <p>I am a developer for:</p>
-                            
+
                             <br>
                             <li>
                                 <ol>EmberNetwork</ol>
@@ -117,7 +117,7 @@
         var slide = 0;
 
         document.querySelector('[data-arrow="right"]').addEventListener('click', (event) => {
-            if (slide < 2) {
+            if (slide < 3) {
                 slide += 1;
                 SlideJs.goTo(slide);
             }
@@ -132,7 +132,7 @@
 
         window.onkeydown = (e) => {
             if (e.key == 'ArrowRight') {
-                if (slide < 2) {
+                if (slide < 3) {
                     slide += 1;
                     SlideJs.goTo(slide);
                 }
