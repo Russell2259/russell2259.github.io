@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Hello 👋",
+        "content": "<p>I'm Russell2259, also known as Mr. Sprout</p>"
+    },
+    {
+        "title": "About Me",
+        "content": "<p>I'm a hobbist developer who also likes graphic design</p>"
+    },
+    {
+        "title": "Programs/Languages I Use",
+        "content": "<img src='https://skillicons.dev/icons?i=md,html,javascript,css,nodejs,python,java' class='is-center' data-image='dynamic-language' /><br><br><img src='https://skillicons.dev/icons?i=vscode,eclipse,github,figma' class='is-center' />"
+    },
+    {
+        "title": "My Organizations",
+        "content": "<p>I am a developer for:</p><br><li><ol>EmberNetwork</ol><ol>GameHub</ol><ol>3kh0</ol></li>"
+    }
+]
