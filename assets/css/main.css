@@ -90,7 +90,7 @@ footer>.footer-content {
     position: sticky;
 }
 
-.nav-item {
+.nav>.item {
     align-items: center;
     color: var(--text-color);
     display: flex;
@@ -99,29 +99,29 @@ footer>.footer-content {
     text-decoration: none;
 }
 
+.nav>.item:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    text-decoration: none;
+}
+
 .nav>a:hover::before {
-    color: inherit;
+    text-decoration: none;
 }
 
-.nav-item:hover {
+.nav>.item.is-active {
     background-color: var(--text-color);
     color: var(--bg-color);
     text-decoration: none;
 }
 
-.nav-item.is-active {
-    background-color: var(--text-color);
-    color: var(--bg-color);
-    text-decoration: none;
-}
-
-.nav-logo {
+.nav>.logo {
     height: 50px;
     overflow: hidden;
     padding: 10px;
 }
 
-.logo {
+.nav>.logo>img {
     width: 50px;
 }
 
@@ -163,18 +163,18 @@ a {
 }
 
 a::before {
-    padding-top: 1px;
-    content: '';
+    content: "";
     position: absolute;
     display: block;
-    width: 90%;
-    height: 1px;
+    width: 100%;
+    height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--text-color);
+    background-color: #000;
     transform: scaleX(0);
+    transform-origin: top left;
     transition: transform 0.3s ease;
-}
+  }
 
 a:hover::before {
     transform: scaleX(1);
@@ -356,7 +356,8 @@ button:disabled {
 
 img.emoji {
     height: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
 }
 
 @font-face {
