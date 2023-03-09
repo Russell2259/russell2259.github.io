@@ -331,6 +331,10 @@ button:disabled {
     text-decoration: none;
 }
 
+img.emoji {
+    height: 16px;
+}
+
 @font-face {
     font-family: 'montserrat';
     src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),
