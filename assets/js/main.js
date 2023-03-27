@@ -14,9 +14,9 @@ const tabmang = document.createElement('script');
 tabmang.src = '/assets/js/tab.js';
 document.body.appendChild(tabmang);
 
-//if (new Date().getDate() === 12 && new Date().getMonth()+1 === 4) {
+if (new Date().getDate() === 12 && new Date().getMonth()+1 === 4) {
     const banner = document.createElement('div');
     banner.classList = 'banner birthday';
-    banner.innerHTML = '<h1>Yay!</h1>';
+    banner.innerHTML = '<h1>Happy Birthday Russell2259!</h1>';
     document.body.insertBefore(banner, document.body.firstChild);
-//}
+}
