@@ -33,17 +33,19 @@ body {
 }
 
 .banner.birthday {
-    background-color: #0172fd;
-    background-image: url('/assets/img/banner-background.svg');
+    background-color: #c1c1d6;
+    background-image: url("/assets/img/banner-background.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 75px;
     width: 100%;
 }
 
-.banner.birthday h1 {
+.banner.birthday>h1 {
     font-family: montserrat-black;
     font-size: 35px;
-    text-align: center;
     margin: auto;
+    text-align: center;
 }
 
 body.no-scroll {

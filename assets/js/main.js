@@ -17,7 +17,7 @@ document.body.appendChild(tabmang);
 //if (new Date().getDate() === 12 && new Date().getMonth()+1 === 4) {
     const banner = document.createElement('div');
     banner.classList = 'banner birthday';
-    banner.innerHTML = 'Yay!';
+    banner.innerHTML = '<h1>Yay!</h1>';
     document.body.insertBefore(banner, document.body.firstChild);
 //}
 
