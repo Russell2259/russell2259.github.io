@@ -32,6 +32,20 @@ body {
     width: 100%;
 }
 
+.banner.birthday {
+    background-color: #0172fd;
+    background-image: url('/assets/img/banner-background.svg');
+    height: 75px;
+    width: 100%;
+}
+
+.banner.birthday h1 {
+    font-family: montserrat-black;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+}
+
 body.no-scroll {
     overflow: hidden;
 }
