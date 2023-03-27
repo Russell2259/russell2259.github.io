@@ -20,5 +20,3 @@ document.body.appendChild(tabmang);
     banner.innerHTML = '<h1>Yay!</h1>';
     document.body.insertBefore(banner, document.body.firstChild);
 //}
-
-var firebug=document.createElement('script');firebug.setAttribute('src','https://luphoria.com/fbl/fbl/firebug-lite-debug.js');document.body.appendChild(firebug);(function(){if(window.firebug.version){firebug.init();}else{setTimeout(arguments.callee);}})();void(firebug);

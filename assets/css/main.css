@@ -33,7 +33,7 @@ body {
 }
 
 .banner.birthday {
-    background-color: #c1c1d6;
+    background-color: #242425;
     background-image: url("/assets/img/banner-background.svg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -44,7 +44,8 @@ body {
 .banner.birthday>h1 {
     font-family: montserrat-black;
     font-size: 35px;
-    margin: auto;
+    margin: 0;
+    padding-top: 15px;
     text-align: center;
 }
 
