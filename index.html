@@ -68,16 +68,6 @@
                             <img src="https://skillicons.dev/icons?i=vscode,eclipse,github,figma" class="is-center" />
                         </div>
                     </div>
-                    <div class="item" data-slideid="4">
-                        <h1>My Organizations</h1>
-                        <div class="slide_content">
-                            <a href="https://github.com/EmberNetwork">Ember Network</a><img src="https://raw.githubusercontent.com/EmberNetwork/embernetwork.github.io/main/assets/img/logo.svg" title="EmberNetwork" class="emoji" />
-                            <br>
-                            <a href="https://github.com/GameHub88">GameHub</a><img src="https://raw.githubusercontent.com/GameHub88/GameHub/main/assets/img/logo.png" title="GameHub" class="emoji" />
-                            <br>
-                            <a href="https://github.com/3kh0/3kh0.github.io">3kh0</a><img src="https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/images/logo.png" title="3kh0" class="emoji" />
-                        </div>  
-                    </div>
                 </div>
 
                 <span class="arrow" data-arrow="right">
@@ -114,7 +104,7 @@
         var slide = 0;
 
         document.querySelector('[data-arrow="right"]').addEventListener('click', (event) => {
-            if (slide < 3) {
+            if (slide < 2) {
                 slide += 1;
                 SlideJs.goTo(slide);
             }
@@ -129,7 +119,7 @@
 
         window.onkeydown = (e) => {
             if (e.key == 'ArrowRight') {
-                if (slide < 3) {
+                if (slide < 2) {
                     slide += 1;
                     SlideJs.goTo(slide);
                 }
