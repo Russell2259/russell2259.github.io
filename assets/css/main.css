@@ -39,6 +39,7 @@ body {
     background-repeat: no-repeat;
     height: 75px;
     width: 100%;
+    color: #fff;
 }
 
 .banner.birthday>h1 {
@@ -47,6 +48,7 @@ body {
     margin: 0;
     padding-top: 15px;
     text-align: center;
+    color: #fff;
 }
 
 body.no-scroll {
