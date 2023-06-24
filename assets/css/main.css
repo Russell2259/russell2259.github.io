@@ -1,19 +1,23 @@
-:root {
-    --bg-color: #fff;
-    --text-color: #242425;
-    --wave-color: #242425;
-    --footer-color: #fff;
-    --border-color: #00000033;
-    --shadow-color: #999;
+@media (prefers-color-scheme:light) {
+    * {
+        --bg-color: #fff;
+        --text-color: #242425;
+        --wave-color: #242425;
+        --footer-color: #fff;
+        --border-color: #00000033;
+        --shadow-color: #999;
+    }
 }
 
-[data-theme='dark'] {
-    --bg-color: #242425;
-    --text-color: #fff;
-    --wave-color: #fff;
-    --footer-color: #ffffff;
-    --border-color: #ffffff33;
-    --shadow-color: #111;
+@media (prefers-color-scheme:dark) {
+    * {
+        --bg-color: #242425;
+        --text-color: #fff;
+        --wave-color: #fff;
+        --footer-color: #ffffff;
+        --border-color: #ffffff33;
+        --shadow-color: #111;
+    }
 }
 
 * {
@@ -34,7 +38,7 @@ body {
 
 .banner.birthday {
     background-color: #242425;
-    background-image: url("/assets/img/banner-background.svg");
+    background-image: url('/assets/img/banner-background.svg');
     background-position: center center;
     background-repeat: no-repeat;
     height: 75px;
@@ -177,6 +181,10 @@ h1 {
 
 .is-center {
     text-align: center;
+}
+
+.posts>a::before {
+    display: none;
 }
 
 a {
@@ -368,13 +376,34 @@ button:disabled {
 }
 
 .post:hover {
-    box-shadow: 2px 2px 8px var(--shadow-color);
+    box-shadow: 3px 3px 9px var(--shadow-color);
     margin-left: 100px;
-    padding-right: 100px;
 }
 
-.post>p {
-    text-decoration: none;
+.post>img {
+    background: #242425;
+    padding: 10px;
+    border-radius: 15px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    opacity: 0;
+}
+
+.post:hover img {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+}
+
+.post:hover p {
+    padding-left: 8%;
+}
+
+.post:hover h1 {
+    padding-left: 8%;
 }
 
 img.emoji {
